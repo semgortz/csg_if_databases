@@ -1,0 +1,1 @@
+mysql < ../startup.sql
