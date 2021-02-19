@@ -4,7 +4,7 @@ van het Augustinuscollege Groningen
 *********************** BELANGRIJK BELANGRIJK BELANGRIJK BELANGRIJK BELANGRIJK BELANGRIJK ***********************
 *********************** BELANGRIJK BELANGRIJK BELANGRIJK BELANGRIJK BELANGRIJK BELANGRIJK ***********************
 
-Je hebt deze omgeving gemaakt door voor de gegeven link "gitpod.io#" in te typen. Dat moet alleen de eerste keer.
+Je hebt deze omgeving gemaakt door voor de gegeven link "gitpod.io#" in te typen. Dat moet ALLEEN de eerste keer.
 Nu jouw omgeving gemaakt is ga je de volgende keer RECHTSTREEKS naar gitpod.io. Jouw omgeving staat daar klaar.
 (Als je toch nog een keer "gitpod.io#" zou doen krijg je een tweede GitPod-kopie van de omgeving.
  Daarin staan dan niet jouw wijzigingen. Je zou dan opnieuw vanaf nul moeten beginnen! Dat wil je niet.)
@@ -13,10 +13,12 @@ Nu jouw omgeving gemaakt is ga je de volgende keer RECHTSTREEKS naar gitpod.io. 
 *********************** BELANGRIJK BELANGRIJK BELANGRIJK BELANGRIJK BELANGRIJK BELANGRIJK ***********************
 
 DE SERVER BENADEREN
-Bij het opstarten van de omgeving krijg je een melding dat er een open poort is:
-Als je daarop klikt krijg je de hoofdpagina van de server: index.html
-Zie je dat niet? Kijk dan hieronder in de console onder het tabblad "Open Ports".
-Via index.html kun je de belangrijkste diensten bereiken:
+
+Na het opstarten van deze omgeving voer je EERST deze twee stappen uit (en straks de RODE KNOP als derde stap!):
+1) Ga naar de terminal (tabblad >_/workspace/csg_if_databases) en typ achter $ in:  ./init_database.sh  (kies daarna Enter)
+2) Ga hieronder naar het tabblad "Open Ports" en klik achter 8080 op Open Browser
+
+Via index.html kun je nu de belangrijkste diensten bereiken:
 > de querier - om sql-opdrachten uit te voeren
 > phpMyAdmin - om zelf databases te maken of aan te passen
 > herstel en opslag databases - Hier kun alle databases terugzetten in de staat zoals je ze hebt gekregen. 
